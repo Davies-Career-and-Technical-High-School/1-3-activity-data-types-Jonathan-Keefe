@@ -8,9 +8,9 @@ class Question1 {
       String num1;
       String num2;
       System.out.println("Give me a number");
-      num1 = scan.nextLine();
+      num1 = scan.nextDouble();
       System.out.println("Give me another number");
-      num2 = scan.nextLine();
+      num2 = scan.nextDouble();
 
       System.out.println( num2 + " " + num1);
     }
